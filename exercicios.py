@@ -15,6 +15,12 @@
 # print(f"O valor do resto da divisão do número de usuários por 5 é: {calculo}")
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+
+# n1 = int(input("Digite o primeiro número: "))
+# n2 = int(input("Digite o segundo número: "))
+# multi = n1 * n2
+# print(f"O resultado da multiplicação dos números fornecidos é: {multi}")
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
 # try:
@@ -28,6 +34,10 @@
 #     print("Acho que você não quis inserir um numero")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+# n1 = float(input("Digite um número: "))
+# q_n1 = n1 ** 2
+# print(f"O quadrado do numero ditado é: {q_n1}")
 
 # #### Números de Ponto Flutuante (`float`)
 
