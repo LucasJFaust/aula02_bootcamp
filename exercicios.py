@@ -2,14 +2,17 @@
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
-numero_01 = int(input("Digite um número inteiro: "))
-numero_02 = int(input("Digite novamente um número inteiro: "))
-soma_numeros = numero_01 + numero_02
-print(f"A soma dos números inteiros é igual a: {soma_numeros}")
+# numero_01 = int(input("Digite um número inteiro: "))
+# numero_02 = int(input("Digite novamente um número inteiro: "))
+# soma_numeros = numero_01 + numero_02
+# print(f"A soma dos números inteiros é igual a: {soma_numeros}")
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
 
-
+# n_usuarios = int(input("Coloque o número de usuários: "))
+# DIVISOR = 5
+# calculo = n_usuarios % DIVISOR
+# print(f"O valor do resto da divisão do número de usuários por 5 é: {calculo}")
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
