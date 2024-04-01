@@ -54,14 +54,31 @@
 
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 
-import statistics
-n1 = float(input("Digite o primeiro número: "))
-n2 = float(input("Digite o segundo número: "))
-mean = statistics.mean([n1, n2])
-print(f"A média dos números é: {mean:.3f}")
+# import statistics
+# n1 = float(input("Digite o primeiro número: "))
+# n2 = float(input("Digite o segundo número: "))
+# mean = statistics.mean([n1, n2])
+# print(f"A média dos números é: {mean:.3f}")
 
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+# base = float(input("Digite o valor da base: "))
+# exp = float(input("Digite o expoente: "))
+# calc = base ** exp
+# print(f"O valor da base é: {base}, o expoente: {exp} e o total é de:{calc:.2f}")
+
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
+# criando uma fubção para resolver:
+# def celsius_fahrenheit():
+#    c = float(input('Digite a temperatura em °c: '))
+#    f = float((9 * c) / 5) + 32
+
+#    return print('A temperatura em fahrenheit: {0}°F'.format(f))
+
+# celsius_fahrenheit()
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 
 # import math
@@ -72,8 +89,20 @@ print(f"A média dos números é: {mean:.3f}")
 # #### Strings (`str`)
 
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+
+# st = str(input("Digite sua string: ").upper())
+# print(st)
+
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
+
+# st = str(input("Digite sua string: ").lower())
+# print(st)
+
 # 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+
+# st = str(input("   Digite sua string:   ").strip())
+# print(st)
+
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 
 # data_do_usuario = input("Insira uma data no formato dd/mm/aaaa: ")
@@ -81,6 +110,11 @@ print(f"A média dos números é: {mean:.3f}")
 # print(f"O elemento 1 é o: {lista_dia_mes_ano[0]}, o segundo é: {lista_dia_mes_ano[1]} e o terceiro é: {lista_dia_mes_ano[2]}")
 
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+
+# s1 = str(input("Digite o primeiro nome: "))
+# s2 = str(input("Digite o segundo nome: "))
+# conc = s1 + " " + s2
+# print(conc)
 
 # #### Booleanos (`bool`)
 
