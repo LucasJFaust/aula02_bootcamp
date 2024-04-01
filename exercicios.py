@@ -119,10 +119,44 @@
 # #### Booleanos (`bool`)
 
 # 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+
+# v1 = True
+# v2 = False
+# resultado = v1 and v2
+# print(f"O resultado lógico é: {resultado}")
+
 # 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+
+# v1 = True
+# v2 = False
+# resultado = v1 or v2
+# print(f"O resultado lógico é: {resultado}")
+
 # 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+
+# valor1 = bool(input("Digite True ou False: "))
+# resultado_not = not valor1
+# print(f"Resultado do NOT lógico: {resultado_not}")
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+# n1 = int(input("Digite uma número: "))
+# n2 = int(input("Digite uma número: "))
+
+# if n1==n2:
+#     print(f"O valor de n1 = {n1} é igual ao valor de n2 = {n2}, portanto os valores são iguais")
+# else:
+#     print("Valores diferentes")
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+# n1 = int(input("Digite uma número: "))
+# n2 = int(input("Digite uma número: "))
+
+# if n1 != n2:
+#     print(f"O valor de n1 = {n1} é diferente do valor de n2 = {n2}")
+# else:
+#     print("Valores iguais")
 
 # #### try-except e if
 
