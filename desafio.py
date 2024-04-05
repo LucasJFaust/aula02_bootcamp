@@ -45,4 +45,4 @@ kpi = (salario + bonus_final) / 1000  # Exemplo simples de KPI
 print(f"Seu KPI é: {kpi:.2f}")
 print(f"{nome}, seu salário é R${salario:.2f} e seu bônus final é R${bonus_final:.2f}.")
 
-
+# Fim
